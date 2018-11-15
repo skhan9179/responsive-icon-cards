@@ -54,6 +54,15 @@ html {
 
 @media only screen and (min-width: 25em) {
 
+  .card-img,
+  .card-body {
+    display: inline-block;
+  }
+
+  .card-body {
+    width: 79%;
+    margin: 0 .75em;
+  }
 }
 
 @media only screen and (min-width: 38em) {
