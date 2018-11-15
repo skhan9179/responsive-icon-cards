@@ -113,6 +113,15 @@ html {
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .card-img {
+    padding: 0 0 .15rem;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
