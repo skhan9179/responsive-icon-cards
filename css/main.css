@@ -18,6 +18,12 @@ html {
   box-sizing: inherit;
 }
 
+.cards {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .card,
 .card-img {
   margin: 0 0 .75em;
@@ -25,22 +31,24 @@ html {
 
 .card-img {
   text-align: center;
+  padding: 0 0 .25rem;
 }
 
-img {
+.card-img img {
   width: 50px;
 }
 
-h2,
-p {
+.card-body h2,
+.card-body p {
   margin: 0;
 }
 
-h2 {
+.card-body h2 {
   font-size: 1.5rem;
+  font-weight: normal;
 }
 
-p {
+.card-body p {
   margin: 0 0 1.3rem;
 }
 
@@ -64,3 +72,4 @@ p {
 - *Text sizes:* `1.5rem` (other than the default media query sizes)
 - *Margins:* `.75em` (other than the default media query margins)
 - Use the standard font-sizes, line-heights & margins
+*/
