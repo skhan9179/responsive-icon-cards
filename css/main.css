@@ -126,10 +126,34 @@ html {
 
 @media only screen and (min-width: 90em) {
 
-}
+  html {
+    font-size: 130%;
+  }
 
-/*
-- *Text sizes:* `1.5rem` (other than the default media query sizes)
-- *Margins:* `.75em` (other than the default media query margins)
-- Use the standard font-sizes, line-heights & margins
-*/
+  body {
+    margin: 0;
+  }
+
+  .card-img,
+  .card-body {
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .card-img {
+    margin: 1.5em 0 0;
+    width: 20%;
+  }
+
+  .card-body {
+    width: 78%;
+    margin: 0;
+  }
+
+  .card-body p {
+    margin: 0;
+  }
+
+}
