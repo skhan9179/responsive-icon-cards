@@ -10,10 +10,38 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+
+  font: normal 100%/1.3 sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.card,
+.card-img {
+  margin: 0 0 .75em;
+}
+
+.card-img {
+  text-align: center;
+}
+
+img {
+  width: 50px;
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin: 0 0 1.3rem;
 }
 
 @media only screen and (min-width: 25em) {
@@ -31,3 +59,8 @@ html {
 @media only screen and (min-width: 90em) {
 
 }
+
+/*
+- *Text sizes:* `1.5rem` (other than the default media query sizes)
+- *Margins:* `.75em` (other than the default media query margins)
+- Use the standard font-sizes, line-heights & margins
